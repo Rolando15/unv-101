@@ -26,18 +26,23 @@ function myDivision(numm1, numm2){
 
 
 function calculatedResult(number1, number2, Operation){
-if(Operation == "add"){
+switch(Operation){
+    case "add":
     console.log("The result is:" + myAddition(number1, number2));
-    }
-    else if(Operation == "sub"){
+    break;
+    
+    case "sub":
         console.log("The result is:" + mySubtraction(number1, number2));
-    } 
-    else if(Operation == "mul"){
+    break;
+    
+    case "mul":
             console.log("The result is:" + myMultiplication(number1, number2));
-            }  
-    else if(Operation == "div"){
+             
+    break;
+    
+              default: "div"
         console.log("The result is:" + myDivision(number1, number2));
-        }  
-    }
-
+}
+}    
 calculatedResult(num1, num2,userOperation);
+
