@@ -45,4 +45,3 @@ switch(Operation){
 }
 }    
 calculatedResult(num1, num2,userOperation);
-
