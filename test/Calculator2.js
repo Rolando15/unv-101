@@ -7,7 +7,6 @@ var userOperation = readlineSync.question("Please enter the operation to perform
 
 function myAddition(numm1, numm2){
     return numm1 + numm2;
-
 }
 function mySubtraction(numm1, numm2){
     return numm1 - numm2;
